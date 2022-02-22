@@ -4,15 +4,6 @@ import Footer from "./footer";
 import Note from "./note"
 import CreateArea from "./createArea";
 
-function createNote(ele) {
-    return (
-        <Note
-            key={ele.key}
-            title={ele.title}
-            content={ele.content}
-        />
-    );
-}
 function App() {
 
     const [notes, setNotes] = useState([]);
